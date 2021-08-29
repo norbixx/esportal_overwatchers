@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 98%;
+    background-color: #031d28;
+    color: white;
+    display: inline-block;
+    font-family: helvetica;
+    padding: 1%;
+}
+
+#container p{
+    text-align: center;
+}
+
+.hero-table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.hero-table tr td, .hero-table tr th, .hero-challenges tr th{
+    padding: 8px 10px;
+}
+
+.hero-table tr td{
+    text-align: center;
+}
+
+.hero-table thead tr:first-child, .hero-challenges thead tr:first-child{
+    text-align: left;
+    background-color: #005574;
+    font-size: 24px;
+}
+
+.hero-table thead tr:nth-child(2), .hero-challenges thead tr:nth-child(2){
+    background-color: #00a9e9;
+    border: none;
+}
+
+.hero-table tr:nth-child(odd), .hero-challenges tr:nth-child(odd){
+    background-color: #252525;
+}
+
+.hero-table tr:nth-child(even), .hero-challenges tr:nth-child(even){
+    background-color: #1c1c1c;
+}
+
+.hero-table tr td a, .hero-challenges tr td a{
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.hero-table tr td a:hover, .hero-challenges tr td a:hover{
+    color: #13aceb;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.more-records{
+    text-align: left!important;
+    padding-left: 10px;
+}
+
+.more-records a{
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+.more-records a:hover{
+    color: #13aceb;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.hero-challenges{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-color: #1c1c1c;
+}
+
+.hero-challenges img{
+    width: 90px;
+    padding: 10px 0 10px 0;
+}
+
+.hero-challenges tr td:first-child{
+    width: 200px;
+}
+
+.hero-challenges tr td{
+    text-align: center;
+    width: 120px;
+}
+
+@font-face{
+    font-family: helvetica;
+    src: url(../font/Helvetica.ttf);
+}
